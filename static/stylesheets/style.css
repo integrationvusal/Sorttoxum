@@ -1,0 +1,817 @@
+html, body, h1, h2, h3, h4, h5, h6, p, hr, ul, ol, li {
+	margin:0px;
+	padding:0px;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+.f-none {
+	float: none;
+}
+
+.text-white{
+	color:#fff;
+}
+
+.text-black{
+	color:#000000;
+}
+
+.text-green{
+	color:#009846;
+}
+
+.text-red{
+	color:#E31E24;
+}
+
+.text-blue{
+	color:#2E6DA4;
+}
+
+
+.text-bold {
+	font-weight:bold;
+}
+
+.text-spacing {
+	letter-spacing: 9.8px;
+}
+
+.m-top {
+	margin-top:5px;
+}
+
+.m-bottom {
+	margin-bottom:10px;
+}
+
+.m-left{
+	margin-left:10px;
+}
+
+.bg-green {
+	background:#16493B;
+}
+
+.row {
+	margin:0;
+}
+
+.col-md-6:first-child {
+	padding-left:0px;
+	border-right:1px solid #337AB7;
+}
+
+.col-md-6:last-child {
+	padding-right:0px;
+}
+
+.text-spacing {
+	letter-spacing: 0.1px;
+}
+
+
+body {
+	font-family:ebrima;
+	background:url("../img/bg1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+
+
+
+/*********************************************************** header begin *****************************************************************/
+
+
+header, footer {
+	width:100%;
+//height:100px;
+	background:#2C2704;
+	box-shadow:1px 0px 10px 5px #fff;
+}
+
+header {
+	position:fixed;
+	z-index:10;
+	top:0;
+}
+
+#wrapper {
+	max-width:1000px;
+	margin:10px auto;
+	margin-top:196px;
+}
+
+
+.header_footer_inside{
+	max-width:1000px;
+	margin:0 auto;
+	padding:10px 0px;
+}
+
+.header_footer_inside_left {
+	width:80%;
+	float:left;
+//padding:10px 0;
+}
+
+.header_footer_inside_left img {
+	margin-right:15px;
+	margin-bottom: 16px;
+}
+
+.logo_text {
+	display:inline-block;
+	vertical-align:middle;
+	color:#9DD3AF; /*#D7B56D;*/
+
+}
+
+.logo_text  h4{
+	line-height:30px;
+//letter-spacing:1px;
+	text-shadow: 1px 1px 5px black;
+}
+
+.header_footer_inside_right {
+	width:20%;
+	float:right;
+//margin-top:20px;
+}
+
+.lang {
+	text-align:right;
+	visibility: hidden;
+}
+
+.lang a {
+	margin-left:20px;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.lang a:first-child {
+	margin-left:0px;
+}
+
+.lang a:hover, .lang a:focus {
+	color:#D7B56D;
+}
+
+.cagri {
+	text-align:right;
+	margin-top:25px;
+}
+
+.input-group-btn {
+	top:-1px;
+}
+
+.input-group {
+	margin-top:5px;
+}
+
+.col-lg-9, .col-lg-3{
+	padding:0;
+}
+
+
+
+
+.plants_seeds_block {
+	width:100%;
+	margin:10px 0;
+	margin-bottom:0px;
+}
+
+.plants_seeds_block_left {
+	width:70%;
+	float:left;
+	margin-right:1%;
+}
+
+.plants_seeds {
+	margin-bottom:10px;
+}
+
+.plants_seeds_block_left .plants_seeds:last-child {
+	margin-bottom:0;
+}
+
+.plants_seeds  h3{
+	background:#2C2704;
+	border-radius:5px 5px 0px 0px;
+	opacity:none;
+	padding:10px;
+	border:1px solid #fff;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+
+.plants_seeds_inside{
+	padding:10px;
+	background:#2C2704;
+	opacity:0.9;
+	border:1px solid #fff;
+	border-radius:0 0 5px 5px;
+}
+
+
+.plants_seeds_inside a{
+	color:#fff;
+	font-size:18px;
+//font-weight:bold;
+}
+
+.plants_seeds_inside ul li{
+	background: url("../img/sign_2.png") no-repeat left center;
+	padding:5px 0;
+	padding-left:30px;
+}
+
+
+
+
+.plants_seeds_block_right {
+	width:29%;
+	float:right;
+	border:1px solid #fff;
+	border-radius:5px;
+//height:835px;
+}
+
+.plants_seeds_block_right_inside {
+	width:100%;
+	background:#fff;
+	opacity:0.9;
+	padding:10px;
+//height:785px;
+
+}
+
+.plants_seeds_block_right  h3{
+	background:#2C2704; /* #2C2704 * #394231*/
+	border-radius:5px 5px 0px 0px;
+	opacity:none !important;
+	padding:10px;
+	border:1px solid #fff;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+
+.plants_seeds_block_right_inside a{
+	color:#000;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.plants_seeds_block_right_inside ul{
+
+}
+
+.plants_seeds_block_right_inside ul li{
+	background: url("../img/sign_1.png") no-repeat left center;
+	padding:12.65px 0;
+	padding-left:40px;
+	vertical-align:middle;
+	list-style: none;
+	border-bottom: 2px solid #eee;
+}
+
+.plants_seeds_block_right_inside ul li:hover, .plants_seeds_block_right_inside ul li:focus {
+	box-shadow:1px 1px 1px 0px #000;
+}
+
+/***************************************************************************************************************/
+
+.plants_seeds_content_block_left,
+.plants_seeds_news_block_left {
+	width:30%;
+	float:left;
+	background: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 1%;
+	opacity:0.95;
+	min-height: 1174px;
+}
+
+.plants_seeds_content_block_left > ul > li{
+	padding-top:0px;
+	padding-bottom:10px;
+	cursor:pointer;
+	border-bottom: 1px dotted #2C2704;
+}
+
+.plants_seeds_content_block_left > ul > li:nth-child(even) {
+	border-bottom: none;
+
+}
+
+.plants_seeds_content_block_left ul li ul li {
+	padding:10px 0;
+	padding-left:30px;
+	background: url("../img/sign_2.png") no-repeat left center;
+}
+
+
+.plants_seeds_content_block_left ul li ul li a{
+	color:#2C2704;
+	text-decoration:none;
+}
+
+.plants_seeds_content_block_left ul li ul li a:hover, .plants_seeds_content_block_left ul li ul li a:focus{
+	font-weight:bold;
+}
+
+
+.plants_seeds_content_block_left_about {
+	width:70%;
+	float:left;
+	padding: 20px;
+	border-radius: 5px;
+	opacity:0.95;
+	background:#fff;
+	min-height:995px;
+	margin-right:1%;
+}
+
+
+
+
+.plants_seeds_content_block_right {
+	width:69%;
+	float:right;
+	background: #fff;
+//margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	min-height:1174px;
+	opacity:0.95;
+}
+
+.plants_seeds_content_block_right h4,
+.plants_seeds_content_block_left_about h4,
+.plants_seeds_content_block_left_about h3   {
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+
+.plants_seeds_content_block_right p, .plants_seeds_content_block_left_about p {
+	margin-bottom:10px;
+}
+
+.plants_seeds_content_block_right img {
+	margin-bottom:10px;
+	width:100%;
+	border-radius:5px;
+}
+
+
+.plants_seeds_news_block_left h3 {
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:20px;
+	margin-top:29px;
+	border-bottom:2px dotted #2C2704;
+	padding-bottom:5px;
+}
+
+
+
+
+.plants_seeds_news_block_left h3:nth-child(1){
+	margin-top:0px;
+}
+
+
+
+.plants_seeds_news_block_left ul li {
+	margin:10px 0;
+	border-bottom:1px solid #eee;
+	padding-bottom:5px;
+}
+
+.plants_seeds_news_block_left ul li a{
+	color:#2C2704;
+	font-size:16px;
+	text-decoration:none;
+}
+
+.plants_seeds_news_block_left ul li a:hover, .plants_seeds_news_block_left ul li a:focus{
+	color:#009846;
+}
+
+.plants_seeds_news_block_left ul li p {
+	font-family:Square721 BT;
+	text-align:right;
+	margin-top:5px;
+	color:#009846;
+}
+
+.plants_seeds_news_block_left nav {
+	text-align:center;
+}
+
+
+.contact_block, .gallery_block {
+	width:100%;
+	margin:10px 0;
+	margin-bottom:0px;
+	background:#fff;
+	opacity:0.95;
+	padding:20px;
+	border-radius:5px;
+}
+
+.contact_left {
+	width:50%;
+	float:left;
+	border-right:1px solid #2C2704;
+	padding-right:2%;
+}
+
+.contact_right{
+	width:48%;
+	float:right;
+}
+
+.contact_left h3,
+.contact_right h3,
+.gallery_photo h3,
+.gallery_video h3{
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:20px;
+	border-bottom:1px dotted #2C2704;
+	padding-bottom:5px;
+}
+
+.contact_left h4 {
+	margin-bottom:10px;
+}
+
+
+.contact_iframe {
+	width: 100%;
+	height: 380px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #c3c3c4;
+}
+
+
+.gallery_photo, .gallery_video  {
+	width:100%;
+}
+
+
+.panel-default > .panel-heading {
+	background-image:none;
+}
+
+.panel-default > .panel-heading {
+	color: #333;
+	background-color:#fff;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+	margin-left: 0;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+	margin-left: 0;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+/*************************************************************************************************************/
+
+
+
+.news_block, .foto_video {
+	width:100%;
+	background:#fff;
+	opacity:0.9;
+	border-radius:5px;
+	padding:10px;
+	margin:10px 0;
+}
+
+.news_block_inside h3, .foto_video_inside h3 {
+	color:#2C2704;
+	font-weight:bold;
+	text-align:center;
+	margin:10px 0;
+	margin-bottom:10px;
+//border-bottom:2px dotted #8BC34A;
+}
+
+.news_block_inside hr {
+	margin-bottom:30px;
+	width:100%;
+	border-width: 2px;
+	border-color:#8BC34A;
+	border-style:dotted;
+}
+
+.news_block_inside h4 {
+	color:#2C2704;
+	font-weight:bold;
+	text-align:left;
+	margin-bottom:5px;
+}
+
+.news_block_inside img {
+	width:100px;
+	height:100px;
+	float:left;
+	margin-right:20px;
+	border-radius:5px;
+}
+
+.news_block_inside p {
+	margin:10px 0;
+}
+
+.news_block_inside span {
+	color:#009688;
+	font-family:Square721 BT;
+}
+
+
+
+
+#owl-demo-foto .item{
+	margin: 3px;
+}
+#owl-demo-foto .item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#owl-demo-video .item{
+	margin: 3px;
+}
+#owl-demo-video .item iframe {
+	display: block;
+	width: 100%;
+	height: 64px;
+}
+
+
+.elan_frame {
+	background:#fff;
+	margin-top:10px;
+	opacity:0.9;
+	border-radius:5px;
+}
+
+.elan_frame_in li {
+	float:left;
+	width:25%;
+	border-right:1px solid #2C2704;
+//background:#EDD57F;
+	padding:10px 0px 10px 10px;
+	text-align:center;
+}
+
+.elan_frame_in li:last-child {
+	border-right:none;
+}
+
+
+.elan_frame_in li a{
+	text-decoration:none;
+	color:#2C2704;
+}
+
+.elan_frame_in li:hover{
+	display:block;
+	background:#2C2704;
+}
+
+.elan_frame_in li a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+
+.elan_frame_in img{
+	width:50px;
+	display:block;
+	margin:5px auto;
+}
+
+.elan_frame_in h4{
+	display:inline;
+	margin-left:5px;
+	font-weight:bold;
+}
+
+.faydali_linkler {
+	width:100%;
+	padding:0 20px;
+	margin-top:10px;
+	background:#fff;
+//border-bottom:2px solid red;
+//border-top:2px solid red;
+	text-align:center;
+	opacity:0.9;
+	border-radius:5px;
+}
+
+
+.faydali_linkler h3 {
+	padding:20px 0;
+}
+
+.faydali_linkler img {
+	margin-right:15px;
+	margin-bottom:30px;
+	width:140px;
+}
+
+.faydali_linkler img:last-child {
+//margin-right:0px;
+}
+
+
+
+
+
+.footer_above {
+	width:100%;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	border-bottom:1px dotted #fff;
+
+}
+
+.footer_above .col-md-4 {
+	padding:0;
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+.footer_above .col-md-4 img {
+	margin-bottom:10px;
+}
+
+
+
+.footer_below span {
+	color:#fff;
+}
+
+.footer_below {
+//float:left;
+	width: 100%;
+	padding:20px 0;
+}
+
+.footer_below img {
+	margin-left:10px;
+}
+
+
+/*********************************************************** footer end *****************************************************************/
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+	.col-md-6:first-child {
+		border-right:none;
+		border-bottom:2px solid #337AB7;
+		padding-bottom:10px;
+	}
+
+	.col-md-6:last-child {
+		padding-left:0px;
+		border-bottom:none;
+		padding-top:20px;
+	}
+
+
+	header {
+		position:relative;
+		top:0;
+		margin-bottom:10px;
+	}
+
+	#wrapper {
+		margin-top:0px;
+	}
+
+
+	.header_footer_inside_left, .header_footer_inside_right{
+		width:100%;
+		float:none;
+		text-align:center;
+		padding:0 5px;
+	}
+
+	.logo_text {
+		display: none;
+	}
+
+
+	.header_footer_inside_left img {
+		margin:10px 0;
+	}
+
+
+	.lang, .cagri {
+		text-align:center;
+		margin-top:20px;
+	}
+
+
+	.plants_seeds_block_left, .plants_seeds_block_right {
+		float:none;
+		max-width:100%;
+		width:100%;
+	}
+
+	.plants_seeds_block_left .plants_seeds:last-child {
+		margin-bottom:10px;
+	}
+
+	.plants_seeds_content_block_left,
+	.plants_seeds_content_block_right,
+	.plants_seeds_content_block_left_about,
+	.plants_seeds_news_block_left {
+		float:none;
+		width:100%;
+		margin:10px 0;
+		min-height:0px;
+	}
+
+	.contact_left, .contact_right{
+		width:100%;
+		float:none;
+		border:none;
+	}
+
+	.contact_right{
+		margin-top:20px;
+	}
+
+	.news_block {
+		margin-top:10px;
+	}
+
+	.elan_frame_in li {
+		float:none;
+		width:100%;
+		border-right:none;
+		border-bottom:2px solid #2C2704;
+	}
+
+	.elan_frame_in li:last-child {
+		border-bottom:none;
+	}
+
+	#owl-demo-video .item iframe {
+		height: auto;
+	}
+
+	.footer_below {
+		text-align:center;
+	}
+
+}
+
+/*--------------------------------------------------------------------------------*/
+.news_block_active{
+	color:#009846 !important;
+}
+
+.searched-keyword{
+	color: red;
+}
